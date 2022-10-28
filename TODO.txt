@@ -6,6 +6,7 @@
 
 - Directional sound
 - Audio cue tutorial for different sounds
+- Control tutorial by TTS for how to perform actions
 
 - Floating particles, moving around a bit
 - Particles stay behind when you move
@@ -14,6 +15,7 @@
 - Background and particle colors can be random
 
 - Some kind of basic loading symbol for transitions
+- Fade in and out transition
 
 - Movement
 - Turning
@@ -25,3 +27,4 @@
 - Interaction sounds, such as when using a door
 - Room entry sound
 "Entered the kitchen"
+- Footstep sounds
