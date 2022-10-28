@@ -1,0 +1,27 @@
+- Prompt to begin
+- Read by TTS system
+- Something like spacebar
+- Simple title intro
+- Simple ui for normal user
+
+- Directional sound
+- Audio cue tutorial for different sounds
+
+- Floating particles, moving around a bit
+- Particles stay behind when you move
+- Could be a nice orange color or yellow
+- Darkness or very thick fog
+- Background and particle colors can be random
+
+- Some kind of basic loading symbol for transitions
+
+- Movement
+- Turning
+
+- Sound off function
+- Descriptions of objects should be short and to the point
+"A sword, rusted, broken"
+
+- Interaction sounds, such as when using a door
+- Room entry sound
+"Entered the kitchen"
