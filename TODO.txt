@@ -6,7 +6,9 @@
 - Simple title intro
 - Simple ui for normal user
 
+- Simple ui that reds out options, one selection at a time
 - Some way to reset state, position or leave an area
+- Pause menu
 
 - Directional sound
 - Audio cue tutorial for different sounds
