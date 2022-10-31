@@ -25,7 +25,10 @@
 
 - Movement
 - Turning
-- Could have freeform movement or grid based
+- Could have freeform movement - done
+- Free turning - done
+- Could have grid based movement
+- Grid based turning
 
 - Sound off function
 - Descriptions of objects should be short and to the point
