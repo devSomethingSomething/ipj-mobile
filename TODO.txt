@@ -1,8 +1,12 @@
+- Also check documents for other ideas
+
 - Prompt to begin
 - Read by TTS system
 - Something like spacebar
 - Simple title intro
 - Simple ui for normal user
+
+- Some way to reset state, position or leave an area
 
 - Directional sound
 - Audio cue tutorial for different sounds
@@ -19,6 +23,7 @@
 
 - Movement
 - Turning
+- Could have freeform movement or grid based
 
 - Sound off function
 - Descriptions of objects should be short and to the point
@@ -28,3 +33,4 @@
 - Room entry sound
 "Entered the kitchen"
 - Footstep sounds
+- Wall scraping sounds
