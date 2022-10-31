@@ -14,11 +14,11 @@
 - Audio cue tutorial for different sounds
 - Control tutorial by TTS for how to perform actions
 
-- Floating particles, moving around a bit
-- Particles stay behind when you move
-- Could be a nice orange color or yellow
-- Darkness or very thick fog
-- Background and particle colors can be random
+- Floating particles, moving around a bit - done
+- Particles stay behind when you move - done
+- Could be a nice orange color or yellow - done
+- Darkness or very thick fog - done
+- Background and particle colors can be random - done
 
 - Some kind of basic loading symbol for transitions
 - Fade in and out transition
