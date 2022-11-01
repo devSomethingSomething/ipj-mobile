@@ -38,7 +38,9 @@
 - Interaction sounds, such as when using a door
 - Room entry sound
 "Entered the kitchen"
-- Wall scraping sounds
+
+- Wall scraping sounds - done
+- Improve upon sounds or effects
 
 - Footstep sounds - done
 - Add more depth to footsteps, like walking on different surfaces
