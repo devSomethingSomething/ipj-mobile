@@ -24,8 +24,8 @@
 - Some kind of basic loading symbol for transitions
 - Fade in and out transition
 
-- Movement
-- Turning
+- Movement - done
+- Turning - done
 - Could have freeform movement - done
 - Free turning - done
 - Could have grid based movement
@@ -38,5 +38,7 @@
 - Interaction sounds, such as when using a door
 - Room entry sound
 "Entered the kitchen"
-- Footstep sounds
 - Wall scraping sounds
+
+- Footstep sounds - done
+- Add more depth to footsteps, like walking on different surfaces
