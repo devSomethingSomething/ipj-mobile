@@ -1,4 +1,5 @@
 - Also check documents for other ideas
+- Also check out legacy standard assets for fps controller
 
 - Prompt to begin
 - Read by TTS system
