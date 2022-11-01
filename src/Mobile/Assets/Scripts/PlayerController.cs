@@ -46,7 +46,11 @@ public class PlayerController : MonoBehaviour
         {
             footstepTimer -= Time.deltaTime;
 
-            if (footstepTimer <= 0.0f)
+            // Improve this velocity check later on
+            var xVelocity = Mathf.Abs(characterController.velocity.x) > 3.0f;
+            var zVelocity = Mathf.Abs(characterController.velocity.z) > 3.0f;
+
+            if (footstepTimer <= 0.0f && (xVelocity || zVelocity))
             {
                 audioSource.PlayOneShot(footstepAudioClips[footstepIndex]);
 

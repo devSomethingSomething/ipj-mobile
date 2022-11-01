@@ -44,3 +44,4 @@
 
 - Footstep sounds - done
 - Add more depth to footsteps, like walking on different surfaces
+- Fix step sound bug when not moving - done
