@@ -36,6 +36,8 @@
 "A sword, rusted, broken"
 
 - Interaction sounds, such as when using a door
+
+- TTS, will require some kind of package, or use prerendered voices for testing
 - Room entry sound
 "Entered the kitchen"
 
