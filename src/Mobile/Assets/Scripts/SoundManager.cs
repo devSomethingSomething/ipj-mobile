@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -43,5 +44,23 @@ public class SoundManager : MonoBehaviour
             // Small delay between spoken words
             yield return new WaitForSeconds(0.1f);
         }
+    }
+
+    public IEnumerator Say(AudioClip[] audioClips, Action action)
+    {
+        foreach (AudioClip audioClip in audioClips)
+        {
+            Play(audioClip);
+
+            while (audioSource.isPlaying)
+            {
+                yield return null;
+            }
+
+            // Small delay between spoken words
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        action();
     }
 }

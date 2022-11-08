@@ -21,9 +21,7 @@ public class DoorController : MonoBehaviour
             StartCoroutine(SoundManager.Instance.Say(
                 new AudioClip[] { audioClip }.Concat(
                         WordManager.Instance.ConvertWordsToArray(words))
-                            .ToArray()));
-
-            LoadRoom();
+                            .ToArray(), LoadRoom));
         }
     }
 
