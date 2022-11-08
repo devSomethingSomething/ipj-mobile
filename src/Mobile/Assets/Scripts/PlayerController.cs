@@ -57,6 +57,9 @@ public class PlayerController : MonoBehaviour
                 // Alternate step sounds
                 footstepIndex++;
 
+                // Quick fix for steps
+                audioSource.panStereo *= -1;
+
                 if (footstepIndex == footstepAudioClips.Length)
                 {
                     footstepIndex = 0;
