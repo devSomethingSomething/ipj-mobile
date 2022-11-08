@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,17 +11,17 @@ public class DoorController : MonoBehaviour
     [SerializeField]
     private string destinationRoom;
 
+    [SerializeField]
+    private List<Word> words;
+
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.CompareTag("Player"))
         {
-            StartCoroutine(SoundManager.Instance.Say(new AudioClip[]
-            {
-                audioClip,
-                // Add a way of choosing words to say for room entry
-                WordManager.Instance.Hello,
-                WordManager.Instance.World
-            }));
+            StartCoroutine(SoundManager.Instance.Say(
+                new AudioClip[] { audioClip }.Concat(
+                        WordManager.Instance.ConvertWordsToArray(words))
+                            .ToArray()));
 
             LoadRoom();
         }
