@@ -36,14 +36,15 @@
 "A sword, rusted, broken"
 
 - Interaction sounds, such as when using a door
+
 - Door opening sound effect - done
 - Doors should be able to go to another room/scene
-- Doors should say what room the user entered
+- Doors should say what room the user entered - done
 
 - TTS, will require some kind of package, or use prerendered voices for testing - done
 - Could also have like a single static class which combines individual words and reads out the whole sentence - done
-- Room entry sound
-"Entered the kitchen"
+- Room entry sound - done
+"Entered the kitchen" - done
 
 - Wall scraping sounds - done
 - Improve upon sounds or effects
