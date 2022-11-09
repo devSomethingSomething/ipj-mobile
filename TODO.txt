@@ -30,6 +30,7 @@
 - Free turning - done
 - Could have grid based movement
 - Grid based turning
+- Add gravity to player
 
 - Sound off function
 - Descriptions of objects should be short and to the point
@@ -41,7 +42,7 @@
 - Doors should be able to go to another room/scene - done
 - Fix room change audio bug due to objects being destroyed - done
 - Doors should say what room the user entered - done
-- Doors should be able to go to specific spot in room/scene
+- Doors should be able to go to specific spot in room/scene - done
 - Destination in room static object to store destination - done
 - In new scene, have a player loader which creates the player and positions them - done
 - The player loader should find the correct door or position to load the player at - done
@@ -58,6 +59,8 @@
 - Footstep sounds - done
 - Add more depth to footsteps, like walking on different surfaces
 - Fix step sound bug when not moving - done
+
+- Fix bug with multiple managers, add singleton check for existing objects
 
 - Some kind of direction notifier could be helpful
 
