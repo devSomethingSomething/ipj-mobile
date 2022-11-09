@@ -43,9 +43,9 @@
 - Doors should say what room the user entered - done
 - Doors should be able to go to specific spot in room/scene
 - Destination in room static object to store destination - done
-- In new scene, have a player loader which creates the player and positions them
-- The player loader should find the correct door or position to load the player at
-- The player loader should handle null or empty values and have a default spawn position
+- In new scene, have a player loader which creates the player and positions them - done
+- The player loader should find the correct door or position to load the player at - done
+- The player loader should handle null or empty values and have a default spawn position - done
 
 - TTS, will require some kind of package, or use prerendered voices for testing - done
 - Could also have like a single static class which combines individual words and reads out the whole sentence - done
