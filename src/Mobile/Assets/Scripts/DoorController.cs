@@ -12,17 +12,27 @@ public class DoorController : MonoBehaviour
     private string destinationRoom;
 
     [SerializeField]
+    private string destinationInRoom;
+
+    [SerializeField]
     private List<Word> words;
 
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.CompareTag("Player"))
         {
+            SetDestinationInRoom();
+
             StartCoroutine(SoundManager.Instance.Say(
                 new AudioClip[] { audioClip }.Concat(
                         WordManager.Instance.ConvertWordsToArray(words))
                             .ToArray(), LoadRoom));
         }
+    }
+
+    private void SetDestinationInRoom()
+    {
+        Destination.DestinationInRoom = destinationInRoom;
     }
 
     private void LoadRoom()

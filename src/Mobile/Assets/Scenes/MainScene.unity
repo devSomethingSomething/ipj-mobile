@@ -1329,6 +1329,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 583856533125743101, guid: d59bc7c27b591cc42a7d5dbcdc63a119, type: 3}
+      propertyPath: destinationInRoom
+      value: Spawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 583856533125743101, guid: d59bc7c27b591cc42a7d5dbcdc63a119, type: 3}
       propertyPath: words.Array.data[0]
       value: 0
       objectReference: {fileID: 0}
