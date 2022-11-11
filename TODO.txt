@@ -1,4 +1,5 @@
 - Also check documents for other ideas
+- Should work on mobile and desktop
 - Also check out legacy standard assets for fps controller - done
 
 - Prompt to begin
@@ -33,8 +34,9 @@
 - Add gravity to player
 
 - Sound off function
-- Descriptions of objects should be short and to the point
-"A sword, rusted, broken"
+
+- Descriptions of objects should be short and to the point - done
+"A sword, rusted, broken" - done
 
 - Interaction sounds, such as when using a door
 
