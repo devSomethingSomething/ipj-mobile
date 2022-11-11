@@ -33,13 +33,13 @@
 - Grid based turning
 - Add gravity to player
 
-- Sound off function, should be coroutine
-1. Get input
-2. Call method
-3. Find all objects in radius and store them
-4. Check if object has line of sight of player, otherwise remove it
-5. Loop through found objects
-6. Check if interactable
+- Sound off function, should be coroutine - done
+1. Get input - done
+2. Call method - done
+3. Find all objects in radius and store them - done
+4. Check if object has line of sight of player, otherwise remove it - done
+5. Loop through found objects - done
+6. Check if interactable - done
 7. Play 3D sound on object, one at a time
 8. Alternatively, play all sounds at once, since there might be few objects around the player, and it will speed up the process
 9. Could also play sounds by distance

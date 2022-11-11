@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 583856533125743090}
   - component: {fileID: 583856533125743089}
   - component: {fileID: 583856533125743101}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,3 +112,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 8b89a4e27ce6cf744a256e4db267e0bd, type: 3}
   destinationRoom: 
+  destinationInRoom: 
+  words: 
