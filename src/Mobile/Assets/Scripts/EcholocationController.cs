@@ -1,12 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EcholocationController : MonoBehaviour
 {
-    [SerializeField]
-    private AudioClip testAudioClip;
-
     [SerializeField]
     private KeyCode echolocateKeyCode;
 
@@ -39,7 +35,7 @@ public class EcholocationController : MonoBehaviour
             if (Physics.Linecast(transform.position, colliderTransform.position, out RaycastHit raycastHit) && 
                 raycastHit.transform.name == collider.name)
             {
-                AudioSource.PlayClipAtPoint(testAudioClip, colliderTransform.position);
+                AudioSource.PlayClipAtPoint(collider.GetComponent<IInteractable>().AudioClip, colliderTransform.position);
             }
         }
 

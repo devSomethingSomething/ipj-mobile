@@ -40,10 +40,12 @@
 4. Check if object has line of sight of player, otherwise remove it - done
 5. Loop through found objects - done
 6. Check if interactable - done
-7. Play 3D sound on object, one at a time
-8. Alternatively, play all sounds at once, since there might be few objects around the player, and it will speed up the process
-9. Could also play sounds by distance
-10. Could play a once off clip in the world at a certain position, would require loading clips from the resources folder directly
+7. Play 3D sound on object, one at a time - done
+8. Alternatively, play all sounds at once, since there might be few objects around the player, and it will speed up the process - done
+9. Could also play sounds by distance - done
+10. Could play a once off clip in the world at a certain position, would require loading clips from the resources folder directly - done
+- Fix bug where raycasts are blocked by the scraper colliders
+- They will be removed or changed later, but still fix this bug
 
 - Descriptions of objects should be short and to the point - done
 "A sword, rusted, broken" - done

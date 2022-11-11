@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DoorController : MonoBehaviour
+public class DoorController : MonoBehaviour, IInteractable
 {
     [SerializeField]
     private AudioClip audioClip;
@@ -16,6 +16,8 @@ public class DoorController : MonoBehaviour
 
     [SerializeField]
     private List<Word> words;
+
+    public AudioClip AudioClip => audioClip;
 
     private void OnTriggerEnter(Collider collider)
     {
