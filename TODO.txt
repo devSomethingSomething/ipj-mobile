@@ -10,7 +10,9 @@
 - Read by TTS system
 - Something like spacebar
 - Simple title intro
-- Simple ui for normal user
+- Simple ui for normal user - done
+- Add text flicker for begin text
+- Perhaps add some kind of background like a rotating cube or a gradient
 
 - Simple ui that reads out options, one selection at a time
 - Some way to reset state, position or leave an area
