@@ -14,11 +14,12 @@
 - Add text flicker for begin text
 - Perhaps add some kind of background like a rotating cube or a gradient
 
-- Simple ui that reads out options, one selection at a time
-- Some way to reset state, position or leave an area
-- Pause menu
+- Show all menu options on one screen
+- Have a unique key for each choice
+- Readout of all available options
+- Pressing Esc always takes the player to the main menu
 
-- Directional sound
+- Directional sound - done
 - Audio cue tutorial for different sounds
 - Control tutorial by TTS for how to perform actions
 
@@ -82,6 +83,6 @@
 
 - Fix bug with multiple managers, add singleton check for existing objects
 
-- Some kind of direction notifier could be helpful
+- Direction indicator - done
 
-- Full readout of objects around the player could be useful if the distance system does not work
+- Full readout of objects around the player could be useful if the distance system does not work - done
