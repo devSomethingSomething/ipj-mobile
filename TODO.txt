@@ -15,6 +15,11 @@
 - Readout of all available options
 - Pressing Esc always takes the player to the main menu
 
+- Navigation system loaded - done
+- Press T to start the tutorial - done
+- Press D to start the demo - done
+- Press E to exit the program - done
+
 - Directional sound - done
 - Audio cue tutorial for different sounds
 - Control tutorial by TTS for how to perform actions
@@ -25,8 +30,8 @@
 - Darkness or very thick fog - done
 - Background and particle colors can be random - done
 
-- Some kind of basic loading symbol for transitions
-- Fade in and out transition
+- Some kind of basic loading symbol for transitions - done
+- Fade in and out transition - done
 
 - Movement - done
 - Turning - done
