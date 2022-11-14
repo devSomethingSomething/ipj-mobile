@@ -84,8 +84,6 @@
 - Add more depth to footsteps, like walking on different surfaces
 - Fix step sound bug when not moving - done
 
-- Fix bug with multiple managers, add singleton check for existing objects
-
 - Direction indicator - done
 
 - Full readout of objects around the player could be useful if the distance system does not work - done
