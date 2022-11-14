@@ -7,14 +7,11 @@
 
 - Prompt to begin
 - Read by TTS system
-- Something like spacebar
 - Simple title intro
-- Simple ui for normal user - done
-- Add text flicker for begin text
-- Perhaps add some kind of background like a rotating cube or a gradient
+- Perhaps add some kind of background like a rotating cube or a gradient - done
 
-- Show all menu options on one screen
-- Have a unique key for each choice
+- Show all menu options on one screen - done
+- Have a unique key for each choice - done
 - Readout of all available options
 - Pressing Esc always takes the player to the main menu
 
