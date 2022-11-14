@@ -42,7 +42,6 @@
 - Free turning - done
 - Could have grid based movement
 - Grid based turning
-- Add gravity to player
 
 - Sound off function, should be coroutine - done
 1. Get input - done

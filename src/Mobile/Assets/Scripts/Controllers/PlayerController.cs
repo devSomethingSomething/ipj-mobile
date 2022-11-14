@@ -3,41 +3,44 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private CharacterController characterController;
+    private AudioClip footstepAudioClip;
 
     [SerializeField]
     private float speed;
 
-    private float horizontalInput;
-    private float verticalInput;
-
-    private Vector3 movementDirection;
-
-    // Ref: https://www.youtube.com/watch?v=r1dgRE0GM9A
-    [Header("Footsteps")]
-    [SerializeField]
-    private AudioClip[] footstepAudioClips;
-
-    [SerializeField]
-    private AudioSource audioSource;
-
     [SerializeField]
     private float stepSpeed;
 
-    private float footstepTimer = 0.0f;
+    private AudioSource audioSource;
 
-    private int footstepIndex = 0;
+    private CharacterController characterController;
+
+    private float footstepTimer;
+
+    private Vector3 movementDirection;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+
+        characterController = GetComponent<CharacterController>();
+    }
 
     private void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        HandlePlayerMovement();
+
+        HandleFootsteps();
+    }
+
+    private void HandlePlayerMovement()
+    {
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
         movementDirection = transform.right * horizontalInput + transform.forward * verticalInput;
 
         characterController.Move(movementDirection * speed * Time.deltaTime);
-
-        HandleFootsteps();
     }
 
     private void HandleFootsteps()
@@ -47,23 +50,14 @@ public class PlayerController : MonoBehaviour
             footstepTimer -= Time.deltaTime;
 
             // Improve this velocity check later on
-            var xVelocity = Mathf.Abs(characterController.velocity.x) > 3.0f;
-            var zVelocity = Mathf.Abs(characterController.velocity.z) > 3.0f;
+            bool canStep = characterController.velocity.magnitude >= (speed - 2.0f);
 
-            if (footstepTimer <= 0.0f && (xVelocity || zVelocity))
+            if (footstepTimer <= 0.0f && canStep)
             {
-                audioSource.PlayOneShot(footstepAudioClips[footstepIndex]);
+                audioSource.PlayOneShot(footstepAudioClip);
 
-                // Alternate step sounds
-                footstepIndex++;
-
-                // Quick fix for steps
+                // Quick fix for step sounds
                 audioSource.panStereo *= -1;
-
-                if (footstepIndex == footstepAudioClips.Length)
-                {
-                    footstepIndex = 0;
-                }
 
                 footstepTimer = stepSpeed;
             }
