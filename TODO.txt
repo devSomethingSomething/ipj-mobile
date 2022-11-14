@@ -13,6 +13,8 @@
 - Show all menu options on one screen - done
 - Have a unique key for each choice - done
 - Readout of all available options - done
+
+- Add single loader scene for persistent objects
 - Pressing Esc always takes the player to the main menu
 - Add mobile controls
 
