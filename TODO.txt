@@ -15,7 +15,7 @@
 - Readout of all available options - done
 
 - Add single loader scene for persistent objects
-- Pressing Esc always takes the player to the main menu
+- Pressing Esc always takes the player to the main menu - done
 - Add mobile controls
 
 - Navigation system loaded - done
