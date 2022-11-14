@@ -1,6 +1,5 @@
-- Also check documents for other ideas - done
+- Also check documents for other ideas
 - Should work on mobile and desktop
-- Also check out legacy standard assets for fps controller - done
 
 - Create demo world
 - Would make things easier if the world is all 1x1x1 objects
