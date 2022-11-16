@@ -6,8 +6,13 @@
 - Add alternative doors - done
 - Would make things easier if the world is all 1x1x1 objects - done
 - Add in other types of interactable objects, like furniture or windows perhaps - done
-- Audio cue tutorial for different sounds
-- Control tutorial by TTS for how to perform actions
+- Audio cue tutorial for different sounds - done
+- Control tutorial by TTS for how to perform actions - done
+- Welcome message - done
+- Press Esc to exit - done
+- WASD to move around - done
+- Space to echolocate - done
+- Mouse to look around - done
 - Remove graphics for final build
 - Create build
 - Redo scraper - done
