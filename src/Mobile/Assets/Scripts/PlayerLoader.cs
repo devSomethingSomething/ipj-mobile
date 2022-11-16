@@ -1,13 +1,11 @@
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+public class PlayerLoader : MonoBehaviour
 {
     [SerializeField]
     private GameObject player;
 
-    private Vector3 offset = new Vector3(0.0f, 1.5f, 0.0f);
-
-    private void Awake()
+    private void Start()
     {
         LoadPlayer();
     }
@@ -16,7 +14,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (string.IsNullOrEmpty(Destination.DestinationInRoom))
         {
-            Instantiate(player, offset, Quaternion.identity);
+            Instantiate(player, Vector3.zero, Quaternion.identity);
         }
         else
         {
@@ -28,7 +26,7 @@ public class PlayerManager : MonoBehaviour
             }
             else
             {
-                Instantiate(player, offset, Quaternion.identity);
+                Instantiate(player, Vector3.zero, Quaternion.identity);
             }
 
             Destination.ResetDestinationInRoom();
