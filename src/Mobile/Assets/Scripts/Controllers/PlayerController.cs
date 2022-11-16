@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
             footstepTimer -= Time.deltaTime;
 
             // Improve this velocity check later on
-            bool canStep = characterController.velocity.magnitude >= (speed - 2.0f);
+            bool canStep = characterController.velocity.magnitude >= 1.0f;
 
             if (footstepTimer <= 0.0f && canStep)
             {

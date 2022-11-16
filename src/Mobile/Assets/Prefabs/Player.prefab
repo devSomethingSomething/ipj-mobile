@@ -50,8 +50,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
+  m_Height: 1
+  m_Radius: 0.3
   m_SlopeLimit: 0
   m_StepOffset: 0
   m_SkinWidth: 0.08
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footstepAudioClip: {fileID: 8300000, guid: d4fad5df4772d754cba0142954a08cca, type: 3}
-  speed: 5
+  speed: 2
   stepSpeed: 0.5
 --- !u!114 &7364335080207825116
 MonoBehaviour:
@@ -211,7 +211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700599430763845006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -340,7 +340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9107593072734390497, guid: aeca8e35d31cb7548ae9d539bad41cbd, type: 3}
       propertyPath: m_Center.x
-      value: -1
+      value: -0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeca8e35d31cb7548ae9d539bad41cbd, type: 3}
@@ -406,7 +406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9107593072734390497, guid: aeca8e35d31cb7548ae9d539bad41cbd, type: 3}
       propertyPath: m_Center.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeca8e35d31cb7548ae9d539bad41cbd, type: 3}
@@ -472,7 +472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9107593072734390497, guid: aeca8e35d31cb7548ae9d539bad41cbd, type: 3}
       propertyPath: m_Center.z
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeca8e35d31cb7548ae9d539bad41cbd, type: 3}
