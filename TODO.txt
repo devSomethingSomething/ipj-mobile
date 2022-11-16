@@ -2,10 +2,10 @@
 
 - Add to menu UI
 - Create demo world
-- Add areas
+- Add areas - done
 - Add alternative doors
-- Would make things easier if the world is all 1x1x1 objects
-- Add in other types of interactable objects, like furniture or windows perhaps
+- Would make things easier if the world is all 1x1x1 objects - done
+- Add in other types of interactable objects, like furniture or windows perhaps - done
 - Audio cue tutorial for different sounds
 - Control tutorial by TTS for how to perform actions
 - Remove graphics for final build
