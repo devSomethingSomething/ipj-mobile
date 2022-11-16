@@ -9,6 +9,9 @@ public class DoorController : MonoBehaviour, IInteractable
     private AudioClip audioClip;
 
     [SerializeField]
+    private bool enableTransport;
+
+    [SerializeField]
     private string destinationRoom;
 
     [SerializeField]
@@ -21,7 +24,7 @@ public class DoorController : MonoBehaviour, IInteractable
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.CompareTag("Player"))
+        if (collider.CompareTag("Player") && enableTransport)
         {
             SetDestinationInRoom();
 
@@ -29,6 +32,10 @@ public class DoorController : MonoBehaviour, IInteractable
                 new AudioClip[] { audioClip }.Concat(
                         WordManager.Instance.ConvertWordsToArray(words))
                             .ToArray(), LoadRoom));
+        }
+        else if (collider.CompareTag("Player") && !enableTransport)
+        {
+            AudioSource.PlayClipAtPoint(audioClip, transform.position);
         }
     }
 

@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 583856533125743088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 8b89a4e27ce6cf744a256e4db267e0bd, type: 3}
+  enableTransport: 0
   destinationRoom: 
   destinationInRoom: 
   words: 
