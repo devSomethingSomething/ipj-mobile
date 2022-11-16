@@ -25,7 +25,7 @@ public class MenuController : MonoBehaviour
     private void Update()
     {
         MenuOptionSelected(KeyCode.T, "TutorialScene");
-        MenuOptionSelected(KeyCode.D, "DemoScene");
+        MenuOptionSelected(KeyCode.D, "MainScene");
         ExitSelected();
     }
 

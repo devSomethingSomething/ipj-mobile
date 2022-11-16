@@ -1,9 +1,9 @@
 - Should work on mobile and desktop - done
 
 - Add to menu UI
-- Create demo world
+- Create demo world - done
 - Add areas - done
-- Add alternative doors
+- Add alternative doors - done
 - Would make things easier if the world is all 1x1x1 objects - done
 - Add in other types of interactable objects, like furniture or windows perhaps - done
 - Audio cue tutorial for different sounds
