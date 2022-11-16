@@ -1,9 +1,13 @@
-- Also check documents for other ideas
-- Should work on mobile and desktop
+- Should work on mobile and desktop - done
 
+- Add to menu UI
 - Create demo world
 - Would make things easier if the world is all 1x1x1 objects
-- Add in other types of interactable objects
+- Add in other types of interactable objects, like furniture
+- Audio cue tutorial for different sounds
+- Control tutorial by TTS for how to perform actions
+- Create build
+- Redo scraper
 
 - Prompt to begin - done
 - Read by TTS system - done
@@ -16,7 +20,6 @@
 
 - Add single loader scene for persistent objects - done
 - Pressing Esc always takes the player to the main menu - done
-- Add mobile controls
 
 - Navigation system loaded - done
 - Press T to start the tutorial - done
@@ -24,8 +27,6 @@
 - Press E to exit the program - done
 
 - Directional sound - done
-- Audio cue tutorial for different sounds
-- Control tutorial by TTS for how to perform actions
 
 - Floating particles, moving around a bit - done
 - Particles stay behind when you move - done
@@ -33,15 +34,10 @@
 - Darkness or very thick fog - done
 - Background and particle colors can be random - done
 
-- Some kind of basic loading symbol for transitions - done
-- Fade in and out transition - done
-
 - Movement - done
 - Turning - done
 - Could have freeform movement - done
 - Free turning - done
-- Could have grid based movement
-- Grid based turning
 
 - Sound off function, should be coroutine - done
 1. Get input - done
@@ -60,7 +56,7 @@
 - Descriptions of objects should be short and to the point - done
 "A sword, rusted, broken" - done
 
-- Interaction sounds, such as when using a door
+- Interaction sounds, such as when using a door - done
 
 - Door opening sound effect - done
 - Doors should be able to go to another room/scene - done
@@ -77,13 +73,11 @@
 - Room entry sound - done
 "Entered the kitchen" - done
 
-- Wall scraping sounds - done
-- Improve upon sounds or effects
+- Redo wall scraping sounds
+- Improve upon sounds or effects - done
 
 - Footstep sounds - done
 - Add more depth to footsteps, like walking on different surfaces
-- Fix step sound bug when not moving - done
 
 - Direction indicator - done
-
 - Full readout of objects around the player could be useful if the distance system does not work - done
