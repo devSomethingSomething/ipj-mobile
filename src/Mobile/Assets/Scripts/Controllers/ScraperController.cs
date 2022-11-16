@@ -3,25 +3,13 @@ using UnityEngine;
 public class ScraperController : MonoBehaviour
 {
     [SerializeField]
-    private AudioSource audioSource;
+    private AudioClip thudAudioClip;
 
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.CompareTag("Wall"))
         {
-            Debug.Log("Hit");
-
-            audioSource.Play();
-        }
-    }
-
-    private void OnTriggerExit(Collider collider)
-    {
-        if (collider.CompareTag("Wall"))
-        {
-            Debug.Log("Leave");
-
-            audioSource.Stop();
+            AudioSource.PlayClipAtPoint(thudAudioClip, collider.transform.position, 0.3f);
         }
     }
 }
